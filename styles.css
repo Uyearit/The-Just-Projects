@@ -1,0 +1,36 @@
+import :user-valid
+body {
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: auto;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+
+th {
+    background-color: darkcyan;
+    color: white;
+}
+
+
+
+
+tbody tr:nth-child(even) {
+    background-color: cyan;
+}
+
+/* tbody, tr:nth-child(even) */
+
+/*tbody, tr:nth-child() is a CSS-Psudo-class selector
+that allow you to select elements based on
+their index(source order) inside their container. */
