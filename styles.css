@@ -1,5 +1,4 @@
-import :user-valid
-body {
+table {
     color: black;
     text-align: center;
     font-weight: 400;
@@ -27,6 +26,10 @@ th {
 
 tbody tr:nth-child(even) {
     background-color: cyan;
+}
+.total-price {
+    text-align: right;
+    font-weight: bold;
 }
 
 /* tbody, tr:nth-child(even) */
