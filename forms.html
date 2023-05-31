@@ -11,62 +11,81 @@
         <div>
             <h1>Contact Form</h1>
             <div>
-                <form action="">
+                <form action="action_page.php" method="post">
+                   
                     <div>
                         <label for="Name">Name:</label>
-                        <br>
-                        <input type="text">
-
+                        <input type="text" id="Name" placeholder="Enter your name" required>
                     </div>
-                    <label for="name">Username:</label>
+
                     <br>
-                    <input type="name">
-                </div>
 
                     <div>
-                    <label for="password">Password:</label>
-                    <br>
-                    <input type="password">
+                        <label for="Userame">Userame:</label>
+                        <input type="text" id="Userame" placeholder="Enter your username" required>
                     </div>
 
-                </div>
-                <label for="password">Re-type Password:</label>
-                <br>
-                <input type="password">
-            </div>
-            <div>
-                <label for="Gender">Gender:</label>
-                <br>
-            <input type="Gender">
-            </div>
+                    <br>
 
-            <div>
-                <label for="skill">Techie Skill:</label>
-                <br>
-            <input type="Techie Skill">
-            </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="text" id="Password" maxlength="12" placeholder="Enter your password" required>
+                    </div>
 
-            <div>
-                <label for="Number">Phone Number:</label>
-                <br>
-            <input type="number">
-            </div>
+                    <br>
 
-            <div>
-                <label for="email">Email:</label>
-                <br>
-            <input type="email">
-            </div>
+                    <div>
+                        <label for="Re-type password">Re-type Password:</label>
+                        <input type="text" id="Re-type Password" maxlength="12" placeholder="Enter your password" required>
+                    </div>
 
-            <div>
-                <label for="College">College:</label>
-                <br>
-            <input type="College">
-            </div>
+                    <br>
 
-                </form>
-            </div>
-        </div>
-    </section>
-</body>
-</html>
+                    <div>
+                        <label for="gender">Gender:</label>
+                    <label>Male</label>
+                    <input type="radio" name="title" value="Male">
+                    <label>Female</label>
+                    <input type="radio" name="title" value="Female">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="Techie Skill">Techie Skill:</label>
+                        <label>HTML</label>
+                    <input type="checkbox" name="title" value="HTML">
+                    <label>CSS</label>
+                    <input type="checkbox" name="title" value="CSS">
+                    <label>JavaScript</label>
+                    <input type="checkbox" name="title" value="JavaScript">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="Phone Number">Phone Number:</label>
+                        <input type="text" id="Phone Number" placeholder="Enter your address"required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="Enter your Email address" required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="College">College:</label>
+                        <input type="fav" id="College" placeholder="Select a College">
+            
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <input type="submit">
+                    </div>
+                    
