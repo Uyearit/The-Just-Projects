@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+form {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+
+  
+}
+
+label {
+    width: 40%;
+    display: inline-block;
+}
+
+
+.Gend {
+    width: 40%;
+}
+
+
+.Dot .but {
+    width: 40%;
+    border: 2px solid red;
+}

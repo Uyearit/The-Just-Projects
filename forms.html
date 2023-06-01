@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <section>
-        <div>
-            <h1>Contact Form</h1>
-            <div>
                 <form action="action_page.php" method="post">
-                   
+                    <h1>Contact Form</h1>
                     <div>
                         <label for="Name">Name:</label>
                         <input type="text" id="Name" placeholder="Enter your name" required>
@@ -42,26 +39,27 @@
                     <br>
 
                     <div>
-                        <label for="gender">Gender:</label>
-                    <label>Male</label>
-                    <input type="radio" name="title" value="Male">
-                    <label>Female</label>
-                    <input type="radio" name="title" value="Female">
+                        <label for="gender" class="Gend">Gender: </label>
+        
+                    <input type="radio" name="title" value="Male" class="Male">Male
+
+                    <input type="radio" name="title" value="Female" class="Female"> Female
+                    
                     </div>
 
                     <br>
 
                     <div>
-                        <label for="Techie Skill">Techie Skill:</label>
-                        <label>HTML</label>
-                    <input type="checkbox" name="title" value="HTML">
-                    <label>CSS</label>
-                    <input type="checkbox" name="title" value="CSS">
-                    <label>JavaScript</label>
-                    <input type="checkbox" name="title" value="JavaScript">
+                        <label for="Techie Skill" class="Gend"> Techie Skill:</label>
+                    <input type="checkbox" name="title" value="HTML"> HTml
+                    
+                    <input type="checkbox" name="title" value="CSS"> CSS
+                    
+                    <input type="checkbox" name="title" value="JavaScript"> JavaScript
                     </div>
 
                     <br>
+
 
                     <div>
                         <label for="Phone Number">Phone Number:</label>
@@ -85,14 +83,15 @@
 
                     <br>
 
-                    <div>
-                        <input type="submit">
+                    <div class="Dot">
+                        <label for=""></label>
+                        <button class="but">Submit</button> 
+                    
                     </div>
 
                 </form>
-            </div>
-        </div>
-    </section>
+            
+        
 </body>
 </html>
                     
