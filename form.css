@@ -11,6 +11,8 @@ form {
     width: 50%;
     margin: auto;
     margin-top: 30px;
+    font-family: Halant;
+    font-style: normal;
 
   
 }
@@ -26,7 +28,49 @@ label {
 }
 
 
-.Dot .but {
-    width: 40%;
-    border: 2px solid red;
+p{
+    font-family: 'Halant';
+      font-weight: 600;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      color: #000000
+      
+}
+
+.lab12 {
+    width: 25%;
+
+}
+
+.button {
+    width: 70%;
+    
+}
+
+.but button {
+    border: 2px solid #155EEF;
+    width: 25%;
+    background-color: #155EEF;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.cat {
+    padding: 4px;
+    width: 25%;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: 'Halant';
+    font-weight: bolder;
+    font-size: 35px;
+    
+}
+
+.but .cat {
+ margin: auto;
 }

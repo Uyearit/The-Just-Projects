@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="form.css">
+    <title>Contact Form</title>
 </head>
 <body>
                 <form action="action_page.php" method="post">
-                    <h1>Contact Form</h1>
+                    <h2>Contact Form</h2>
                     <div>
                         <label for="Name">Name:</label>
-                        <input type="text" id="Name" placeholder="Enter your name" required>
+                        <input type="text" id="Name"class="cat" placeholder="Enter your name" required>
                     </div>
 
                     <br>
 
                     <div>
                         <label for="Userame">Userame:</label>
-                        <input type="text" id="Userame" placeholder="Enter your username" required>
+                        <input type="text" id="Userame"class="cat" placeholder="Enter your username" required>
                     </div>
 
                     <br>
 
                     <div>
                         <label for="password">Password:</label>
-                        <input type="text" id="Password" maxlength="12" placeholder="Enter your password" required>
+                        <input type="text" id="Password" maxlength="12"class="cat" placeholder="Enter your password" required>
                     </div>
 
                     <br>
 
                     <div>
                         <label for="Re-type password">Re-type Password:</label>
-                        <input type="text" id="Re-type Password" maxlength="12" placeholder="Enter your password" required>
+                        <input type="text" id="Re-type Password" maxlength="12"class="cat" placeholder="Enter your password" required>
                     </div>
 
                     <br>
@@ -63,35 +66,42 @@
 
                     <div>
                         <label for="Phone Number">Phone Number:</label>
-                        <input type="text" id="Phone Number" placeholder="Enter your address"required>
+                        <input type="text" id="Phone Number" class="cat" placeholder="Enter your address"required>
                     </div>
 
                     <br>
 
                     <div>
                         <label for="email">Email:</label>
-                        <input type="text" id="email" placeholder="Enter your Email address" required>
+                        <input type="text" id="email"class="cat" placeholder="Enter your Email address" required>
                     </div>
 
                     <br>
 
-                    <div>
-                        <label for="College">College:</label>
-                        <input type="fav" id="College" placeholder="Select a College">
-            
+                    <div >
+                        <label for="college">College:</label>
+                        <select name="" id="college" class="lab12" required>
+                            <option value=""disable selected hidden>Choose a College</option>
+                            <option value="NOUN" >Laspotech</option>
+                            <option value="UI">Ibadan Poly</option>
+                            <option value="fedpoly-ede">Fedpoly Ede</option>
+                            <option value="fedpoly-nekede">Fedpoly Nekede</option>
+                            <option value="yabatech">Yabatech</option>
+                        </select>
                     </div>
 
                     <br>
 
-                    <div class="Dot">
-                        <label for=""></label>
-                        <button class="but">Submit</button> 
                     
-                    </div>
+                       <div class="but">
 
-                </form>
-            
-        
+                        <label for=""></label>
+                        <button class="cat">Submit</button>
+                    </div>
+</form>
+</head>
 </body>
-</html>
+                        
+                    
+        
                     
