@@ -73,4 +73,20 @@ h2 {
 
 .but .cat {
  margin: auto;
+ height: 24px;
+ padding: 4px;
+ border-radius: var(#FFFFFF);
+top: 70px;
+
 }
+
+button {
+height: 5px;
+width: 400px;
+left: 45px;
+top: 10px;
+border-radius: 0px;
+
+}
+
+
