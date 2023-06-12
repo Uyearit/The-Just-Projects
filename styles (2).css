@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* max-width: 1440px; */
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      justify-content: space-between;
+      /* align-content: center; */
+      margin: 8px 64px 16px 64px;
+      padding: 10px 32px;
+} 
+
+.logo {
+    width: 50%;
+    align-content: center;
+}
+
+.header .nav {
+    display: flex;
+    gap: 97px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .nav {
+      font-size: 24px;
+      text-decoration: none;
+      font-family: 'Halant';
+      font-style: normal;
+      font-weight: 500;
+      color: #041330;
+         
+}
+
+.header .nav a{
+      font-size: 24px;
+      text-decoration: none;
+      font-family: 'Halant';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      color: #041330;
+      text-decoration: none;
+}
+
+
+.nav-but{
+    padding: 10px 16px;
+    background: none;
+    border: 1px solid #155EEF;
+    border-radius: 8px;
+    color: #155EEF;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 32px;
+    gap: 100px;
+    background: #F9FBFF;
+/* company color */
+
+border: 2px solid #155EEF;
+border-radius: 8px;
+margin: 0 64px;
+}
+
+
+.name-info {
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E3A53;
+    margin-bottom: 8px; 
+    font-family: 'Halant';
+}
+
+ .hero .sam {
+    font-weight: 600;
+    font-size: 56px;
+    color: #155EEF;
+    margin-bottom: 24px;
+    font-family: 'Halant';
+ }
+
+ .hero.hero-text {
+    font-size: 24px;
+    color: #2E3A53;
+    margin-bottom: 42px;
+    font-weight: 500;
+    font-family: 'Manrope';
+ }
+
+ .projects{
+      margin-top: 20px;
+      background: #155EEF;
+      border-radius: 8px;
+      padding: 10px 42px;
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+      border-color: #155EEF;
+}
+
+.Teal {
+    width: 514 486px;
+    
+}
+
+.about {
+    display: flex;
+      /* width: 100%; */
+      justify-content: space-between;
+      align-items: center;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      margin:32px 64px;
+      background-color: #F9FBFF;
+      gap: 100px;
+      padding: 5%;
+}
+
+.about .Photo{
+    box-sizing: border-box;
+    border-color: #155EEF;
+    border-style: solid;
+    border-width: 1px 0px;
+    width: 80%;
+}
+
+.about-me .profile {
+    font-weight: 600;
+    font-size: 40px;
+    color: #041330;
+    margin-bottom: 24px;
+    font-family: 'Halant';
+}
+
+.about-me .experience {
+    font-size: 24px;
+    color: #2E3A53;
+    /* margin-bottom: 280px; */
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Manrope';
+    width: 100%;
+}
+
+.footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 64PX;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      padding: 16px 32px;
+      align-items: center;
+    
+}
+
+
+.social {
+    display: flex;
+    gap: 30%;
+    flex-direction: row;
+}
+
+.trademark {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #041330;
+}
