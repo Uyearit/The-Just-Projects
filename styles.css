@@ -33,6 +33,9 @@ button {
     padding: 3px;
 }
 
+.button .hero {
+    background-color: #155EEF;
+}
 
 
 /* tbody, tr:nth-child(even) */
