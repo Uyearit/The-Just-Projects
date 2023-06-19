@@ -132,7 +132,6 @@ margin: 0 64px;
       border: 2px solid #155EEF;
       border-radius: 8px;
       margin:32px 64px;
-      background-color: #F9FBFF;
       gap: 100px;
       padding: 5%;
 }
@@ -161,6 +160,40 @@ margin: 0 64px;
     text-align: justify;
     font-family: 'Manrope';
     width: 100%;
+}
+
+.collab {
+      align-items: center;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      margin:32px 64px;
+      gap: 100px;
+      padding: 5%;
+      font-size: 24px;
+      font-family: 'Manrope';
+}
+
+
+.collab .profile {
+    font-family: 'Halant';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+}
+
+.collab .impact{
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+box-sizing: border-box;
+color: #2E3A53;
+}
+
+.hero-swag .Photo {
+    width: 514 486px;
+
 }
 
 .footer{
